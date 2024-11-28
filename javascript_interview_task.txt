@@ -1,0 +1,22 @@
+Build a responsive application to manage employees without using any Javascript Framework and libraries. Follow the steps below to build the application:
+1. Create two new layouts (components)
+	a. Header
+	b. Footer
+2. Header should have
+	a. Logo (on the left)
+	b. Search-bar (on the right)
+	c. Navigation-menu (below the search bar, on the right). It should be hidden under the hamburger menu for small screens. It contains,
+		i. Employee registration page.
+		ii. Employee listing page.
+3. Footer should be placed always at the bottom of the page. If the body content is less, then it should be visible down without any scroll. It contains,
+	a. Copyright symbol with your name as submission
+4. Employee registration page:
+	a. There is a form which is having fields: name, position, about, & joining_date(datepicker). All fields are mandatory. 
+	b. On submit of the form, the details of the employee will be saved in the browser storage. And user should redirected to the listing page.
+5. Employee listing page:
+	a. display the employees in the table. Provide an option of delete/remove. All fields are mandatory.
+	b. On click of the delete/remove button, the entry will go away from the UI & also the entry will be removed from the browser storage.
+	c. Pagination - On the listing page, displaying 5 employees at a time.
+6. Search-bar will be placed in the header.
+	a. A user can search the employee by their name. Show the list of users by typing their names.
+
